@@ -1,5 +1,5 @@
 ﻿using Microsoft.Win32;
-using SupaShoes.Models;
+using SuperShoes.Models;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -16,7 +16,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace SupaShoes.Pages
+namespace SuperShoes.Pages
 {
     /// <summary>
     /// Логика взаимодействия для UpdateProductPage.xaml
@@ -133,7 +133,7 @@ namespace SupaShoes.Pages
             OpenFileDialog getImageDialog = new OpenFileDialog();
 
             getImageDialog.Filter = "Файлы изображений: (*.png, *.jpg, *.jpeg)| *.png; *.jpg; *.jpeg"; // Возможные для выбора расширения файлов
-            getImageDialog.InitialDirectory = "C:\\Users\\Alina\\Source\\Repos\\SupaShoes\\SupaShoes\\Resources\\";
+            getImageDialog.InitialDirectory = "C:\\Users\\Alina\\Source\\Repos\\SuperShoes\\SuperShoes\\Resources\\";
 
             if (getImageDialog.ShowDialog() == true)
             {

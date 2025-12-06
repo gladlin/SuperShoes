@@ -1,6 +1,6 @@
 ﻿using Microsoft.Win32;
-using SupaShoes.Models;
-using SupaShoes.Properties;
+using Superhoes.Models;
+using Superhoes.Properties;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -18,7 +18,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace SupaShoes.Pages
+namespace Superhoes.Pages
 {
     /// <summary>
     /// Логика взаимодействия для AddProduct.xaml
@@ -107,7 +107,7 @@ namespace SupaShoes.Pages
             OpenFileDialog getImageDialog = new OpenFileDialog();
 
             getImageDialog.Filter = "Файлы изображений: (*.png, *.jpg, *.jpeg)| *.png; *.jpg; *.jpeg";
-            getImageDialog.InitialDirectory = "C:\\Users\\Alina\\Source\\Repos\\SupaShoes\\SupaShoes\\Resources\\"; // Полный путь открытия папки с изображениями
+            getImageDialog.InitialDirectory = "C:\\Users\\Alina\\Source\\Repos\\Superhoes\\Superhoes\\Resources\\"; // Полный путь открытия папки с изображениями
             if (getImageDialog.ShowDialog() == true)
             {
                 _newProduct.image = getImageDialog.SafeFileName;

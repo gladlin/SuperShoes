@@ -1,4 +1,4 @@
-﻿using SupaShoes.Models;
+﻿using Superhoes.Models;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -16,7 +16,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Xml.Linq;
 
-namespace SupaShoes.Pages
+namespace Superhoes.Pages
 {
     /// <summary>
     /// Логика взаимодействия для AddOrder.xaml

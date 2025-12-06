@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SupaShoes.Models
+namespace Superhoes.Models
 {
     using System;
     using System.Collections.Generic;

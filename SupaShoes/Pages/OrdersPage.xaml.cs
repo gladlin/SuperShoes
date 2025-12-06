@@ -1,4 +1,4 @@
-﻿using SupaShoes.Models;
+﻿using Superhoes.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace SupaShoes.Pages
+namespace Superhoes.Pages
 {
     /// <summary>
     /// Логика взаимодействия для OrdersPage.xaml

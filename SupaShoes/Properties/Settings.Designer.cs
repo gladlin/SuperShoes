@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SupaShoes.Properties
+namespace Superhoes.Properties
 {
 
 
